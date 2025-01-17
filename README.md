@@ -1,6 +1,6 @@
 # CMS Calorimeter simulation with parquet file output
 
-This repository is a modification of the code used for this paper https://arxiv.org/abs/2308.09025. The original code uses CSV files as an output where one CSV file is used per event, resulting in a large number of files that take up a lot of space. The code presented in this repository uses this code to generate the CSV files and then store them bundled in a parquet file to allow for a more efficient disk space usage and better accessibility.
+This repository is a modification of the code used for this paper https://arxiv.org/abs/2308.09025. The original code uses CSV files as an output where one CSV file is used per event, resulting in a large number of files that take up a lot of space. The code presented in this repository uses this code to generate the CSV files and then store their content bundled in a parquet file to allow for a more efficient disk space usage and better accessibility.
 
 ## Modifications to the original Geant4 code
 
