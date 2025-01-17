@@ -1,0 +1,4 @@
+# mesh name: allLayers
+# primitive scorer name: energyDeposit
+# iX, iY, iZ, total(value) [MeV], total(val^2), entry
+0,0,0,19980.48228384979,399219672.2952353,1

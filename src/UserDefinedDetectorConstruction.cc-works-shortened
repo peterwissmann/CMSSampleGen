@@ -1,0 +1,70 @@
+#include "UserDefinedDetectorConstruction.hh"
+
+#include "G4NistManager.hh"
+#include "G4Material.hh"
+#include "G4Box.hh"
+#include "G4LogicalVolume.hh"
+#include "G4PVPlacement.hh"
+#include "G4PVReplica.hh"
+#include "G4SystemOfUnits.hh"
+#include "G4PhysicalConstants.hh"
+#include "G4ThreeVector.hh"
+#include "G4VisAttributes.hh"
+#include "G4Colour.hh"
+
+UserDefinedDetectorConstruction::UserDefinedDetectorConstruction()
+: G4VUserDetectorConstruction()
+{
+  activeMaterialThickness = 230*mm;
+  caloSizeXY = 100*cm;
+}
+
+// empty destructor
+UserDefinedDetectorConstruction::~UserDefinedDetectorConstruction()
+{}
+
+void UserDefinedDetectorConstruction::DefineMaterials()
+{
+  G4NistManager* nistManager = G4NistManager::Instance();
+  nistManager->FindOrBuildMaterial("G4_PbWO4");
+  G4double a;
+  G4double z;
+  G4double density;
+  new G4Material("Galactic", z=1., a=1.01*g/mole, density=universe_mean_density,
+                  kStateGas, 2.73*kelvin, 3.e-18*pascal);
+}
+
+G4VPhysicalVolume* UserDefinedDetectorConstruction::Construct()
+{
+  DefineMaterials();
+  G4double caloSizeZ = activeMaterialThickness;
+  G4double worldXY = 1.2*caloSizeXY;
+  G4double worldZ = 10*m;
+  G4VSolid* worldBox = new G4Box("WorldBox", worldXY/2., worldXY/2., worldZ/2.);
+  G4LogicalVolume* worldLV = new G4LogicalVolume(
+    worldBox, G4Material::GetMaterial("Galactic"), "WorldLV"
+  );
+  G4VPhysicalVolume* worldPV = new G4PVPlacement(
+    0, G4ThreeVector(0,0,0), worldLV, "WorldPV", 0, false, 0, true
+  );
+
+  G4VSolid* caloBox = new G4Box("CaloBox", caloSizeXY/2., caloSizeXY/2., caloSizeZ/2.);
+  G4LogicalVolume* caloLV = new G4LogicalVolume(
+    caloBox, G4Material::GetMaterial("Galactic"), "CaloLV"
+  );
+  new G4PVPlacement(
+    0, G4ThreeVector(0,0,0), caloLV, "CaloPV", worldLV, false, 0, true
+  );
+
+  G4VSolid* activeBox = new G4Box("ActiveBox", caloSizeXY/2., caloSizeXY/2., caloSizeZ/2.);
+  G4LogicalVolume* activeLV = new G4LogicalVolume(
+    activeBox, G4Material::GetMaterial("G4_PbWO4"), "ActiveLV"
+  );
+  
+  new G4PVPlacement(
+    0, G4ThreeVector(0., 0., activeMaterialThickness/2), // fill into top part of calo
+    activeLV, "ActivePV", caloLV, false, 0, true
+  );
+
+  return worldPV;
+}

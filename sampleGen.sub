@@ -1,0 +1,21 @@
+# Specify the executable Python script
+executable = 
+
+# Arguments to pass to each job
+# Takes subset size, output dir to save the parquet files and the dir where the intermediate csv files are stored.
+arguments = -u gen_batch_samples_condor.py SUBSETSIZE FOLDERTOPARQUET/ $(Process) FOLDERTOCSVS
+
+# Specify the location of the Python script
+transfer_input_files = gen_batch_samples_condor.py, run_condor.sh
+#should_transfer_files = YES
+
+# Specify output, error, and log files (Create seperate folder, so large number of log files don't fill in your home dir)
+output = logs/htcondor_output_$(Process).out
+error = logs/htcondor_error_$(Process).err
+log = logs/htcondor_$(Process).log
+
+# Request 300MB for each job (adjust this if your job requires more resources)
+request_memory = 300MB
+
+# Each queued job runs #SUBSETSIZE samples, adjust accordingly
+queue 1

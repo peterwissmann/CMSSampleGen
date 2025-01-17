@@ -1,0 +1,33 @@
+/detector/ironThickness 175.7 mm #PDG: 1 rad length is 1.757cm
+/detector/ironPosition -0.7025 m #Standard is -0.7025m
+/run/initialize
+
+#/vis/open OGL 600x600-0+0       # Open the OpenGL visualization driver with a specific window size
+
+
+/gps/particle PARTICLE
+/gps/pos/type Beam
+# need to add half of the thickness of the calorimeter (1.29 + 0.115 m)
+/gps/pos/centre 0 0 -1.405 m
+/gps/pos/sigma_r 44 mm # 3 cells wide
+/gps/direction 0 0 1
+/gps/ene/type Lin
+/gps/ene/min 20000 MeV
+/gps/ene/max 100000 MeV
+/gps/ene/intercept 1
+/gps/ene/gradient 0
+
+/score/create/boxMesh allLayers
+/score/mesh/boxSize 264 264 115 mm
+/score/mesh/nBin 24 24 1
+/score/mesh/translate/xyz 0. 0. 0. mm
+/score/quantity/energyDeposit energyDeposit
+/score/close
+
+/run/beamOn 1
+
+# Capture screenshot at the end
+#/vis/viewer/flush
+#/vis/viewer/screenshot detector_hits.png
+
+/score/dumpQuantityToFile allLayers energyDeposit /home/home1/institut_3a/wissmann/generated_samples/PARTICLE/caloNUMBER-HR.csv

@@ -1,0 +1,7 @@
+Executable      =   Mono_Energy.sh
+universe        =   vanilla
+request_cpus    =   1
+request_memory  =   1GB
+environment = "JOB_ID=$(Item)"
+
+queue from seq  1 1 20000 |

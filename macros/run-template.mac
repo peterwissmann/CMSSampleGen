@@ -1,0 +1,43 @@
+/run/initialize
+
+#/gps/List
+/gps/particle PARTICLERAW
+/gps/pos/type Beam
+/gps/pos/centre 0.0 0.0 -1 m
+/gps/direction 0 0 1
+/gps/energy 20000 MeV
+
+/score/create/boxMesh firstLayer
+/score/mesh/boxSize 240 240 45 mm
+/score/mesh/nBin 96 3 1
+/score/mesh/translate/xyz 0. 0. -195 mm
+/score/quantity/energyDeposit energyDeposit
+/score/close
+
+/score/create/boxMesh secondLayer
+/score/mesh/boxSize 240 240 173.5 mm
+/score/mesh/nBin 12 12 1
+/score/mesh/translate/xyz 0. 0. 23.5 mm
+/score/quantity/energyDeposit energyDeposit
+/score/close
+
+/score/create/boxMesh thirdLayer
+/score/mesh/boxSize 240 240 21.5 mm
+/score/mesh/nBin 6 12 1
+/score/mesh/translate/xyz 0. 0. 218.5 mm
+/score/quantity/energyDeposit energyDeposit
+/score/close
+
+/score/create/boxMesh allLayers
+/score/mesh/boxSize 240 240 240 mm
+/score/mesh/nBin 1 1 1
+/score/mesh/translate/xyz 0. 0. 0. mm
+/score/quantity/energyDeposit energyDeposit
+/score/close
+
+/run/beamOn 1
+
+/score/dumpQuantityToFile firstLayer energyDeposit ../outputs/PARTICLENAMESUFFIX/firstLayerNUMBER.csv
+/score/dumpQuantityToFile secondLayer energyDeposit ../outputs/PARTICLENAMESUFFIX/secondLayerNUMBER.csv
+/score/dumpQuantityToFile thirdLayer energyDeposit ../outputs/PARTICLENAMESUFFIX/thirdLayerNUMBER.csv
+/score/dumpQuantityToFile allLayers energyDeposit ../outputs/PARTICLENAMESUFFIX/allLayersNUMBER.csv

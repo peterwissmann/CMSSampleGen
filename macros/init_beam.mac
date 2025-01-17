@@ -1,0 +1,11 @@
+
+## setup particle source
+/gps/particle pi0
+/gps/pos/type Beam
+/gps/pos/centre 0.0 0.0 -28.8 cm
+/gps/direction 0 0 1
+/gps/ene/type Lin
+/gps/ene/min 1 GeV
+/gps/ene/max 100 GeV
+/gps/ene/gradient 0. #uniform
+/gps/ene/intercept 1

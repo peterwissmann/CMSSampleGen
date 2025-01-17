@@ -1,0 +1,42 @@
+009 (285.000.000) 2025-01-14 10:19:25 Job was aborted.
+	via condor_rm (by user wissmann)
+...
+000 (286.000.000) 2025-01-14 10:19:27 Job submitted from host: <134.61.27.73:9618?addrs=134.61.27.73-9618+[2a00-8a60-1030-a00--863d-1b49]-9618&alias=lxbatch03.physik.rwth-aachen.de&noUDP&sock=schedd_1941059_9a24>
+...
+001 (286.000.000) 2025-01-14 10:19:27 Job executing on host: <134.61.17.117:9618?addrs=134.61.17.117-9618&alias=lxcip22.physik.rwth-aachen.de&noUDP&sock=startd_991502_7b1a>
+	SlotName: slot1_3@lxcip22.physik.rwth-aachen.de
+	CondorScratchDir = "/user/condor/execute/dir_1491143"
+	Cpus = 1
+	Disk = 2048
+	GPUs = 0
+	Memory = 384
+...
+006 (286.000.000) 2025-01-14 10:19:41 Image size of job updated: 167636
+	164  -  MemoryUsage of job (MB)
+	167636  -  ResidentSetSize of job (KB)
+...
+010 (286.000.000) 2025-01-14 10:21:22 Job was suspended.
+	Number of processes actually suspended: 2
+...
+011 (286.000.000) 2025-01-14 10:21:47 Job was unsuspended.
+...
+005 (286.000.000) 2025-01-14 10:21:48 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:01:24, Sys 0 00:00:15  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:01:24, Sys 0 00:00:15  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :       27       27      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :      164      300       384 
+	   TimeExecute (s)      :      141                    
+	   TimeSlotBusy (s)     :      141                    
+
+	Job terminated of its own accord at 2025-01-14T09:21:48Z with exit-code 0.
+...

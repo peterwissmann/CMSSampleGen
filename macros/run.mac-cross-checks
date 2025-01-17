@@ -1,0 +1,18 @@
+/run/initialize
+
+/gps/particle pi0
+/gps/pos/type Beam
+/gps/pos/centre 0.0 0.0 -5 m
+/gps/direction 0 0 1
+/gps/energy 10000 MeV
+
+/score/create/boxMesh secondLayer
+/score/mesh/boxSize 240 240 240 mm
+/score/mesh/nBin 24 24 1
+/score/mesh/translate/xyz 0. 0. 0. mm
+/score/quantity/energyDeposit energyDeposit
+/score/close
+
+/run/beamOn 1
+
+/score/dumpQuantityToFile secondLayer energyDeposit ../outputs/secondLayer.csv

@@ -1,0 +1,11 @@
+Executable      =   condor_job.sh
+Log             =   ../outputs/condor_output/$(Item).log
+Error           =   ../outputs/condor_output/$(Item).err
+Output          =   ../outputs/condor_output/$(Item).out
+universe        =   vanilla
+request_cpus    =   1
+request_memory  =   1GB
+environment = "JOB_ID=$(Item)"
+
+queue from seq 1001 10000 100000 |
+

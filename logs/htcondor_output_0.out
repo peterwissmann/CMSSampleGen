@@ -1,0 +1,173 @@
+Running job with subset_size=10
+Running simulation 1 for job 0
+Thickness set to 1.462 cm
+Position set to -53.272 cm
+GEANT4_PATH: 
+LD_LIBRARY_PATH: /cvmfs/sft.cern.ch/lcg/releases/MCGenerators/thepeg/2.2.3-19b8a/x86_64-el9-gcc11-opt/lib/ThePEG:/cvmfs/sft.cern.ch/lcg/releases/MCGenerators/herwig++/7.2.3p2-17f14/x86_64-el9-gcc11-opt/lib/Herwig:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/jaxlib/mlir/_mlir_libs:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/torch/lib:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/onnxruntime/capi/:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/tensorflow:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/tensorflow/contrib/tensor_forest:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/tensorflow/python/framework:/cvmfs/sft.cern.ch/lcg/releases/java/8u392-fe115/x86_64-el9-gcc11-opt/jre/lib/amd64:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib64:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/lib:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/lib64:/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/lib:/net/software_g4rt/Alma9/GEANT4/10.04.p02/geant4.10.04.p02_gcc11.3_cmake3.25_root6.18_install/lib64:/cvmfs/sft.cern.ch/lcg/releases/R/4.3.0-bed00/x86_64-el9-gcc11-opt/lib64/R/library/readr/rcon
+Searching for libG4gl2ps.so in /lib64
+OUTPUT_DIR is set to: /home/home1/institut_3a/wissmann/generated_samples/gamma
+Created job-specific directory: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0
+Output files will be saved to: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/calo-HR.csv
+Random thickness value: 1.462
+Random position value: -53.272
+Running simulation for 0, output will go to: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/calo0-HR.csv
+Simulation output for 0 written to calo0-HR.csv
+Job 0 to 0 completed.
+
+
+Processing file: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/calo0-HR.csv, Text: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/0.txt
+Running simulation 2 for job 0
+Thickness set to 2.614 cm
+Position set to -51.161 cm
+GEANT4_PATH: 
+LD_LIBRARY_PATH: /cvmfs/sft.cern.ch/lcg/releases/MCGenerators/thepeg/2.2.3-19b8a/x86_64-el9-gcc11-opt/lib/ThePEG:/cvmfs/sft.cern.ch/lcg/releases/MCGenerators/herwig++/7.2.3p2-17f14/x86_64-el9-gcc11-opt/lib/Herwig:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/jaxlib/mlir/_mlir_libs:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/torch/lib:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/onnxruntime/capi/:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/tensorflow:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/tensorflow/contrib/tensor_forest:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/tensorflow/python/framework:/cvmfs/sft.cern.ch/lcg/releases/java/8u392-fe115/x86_64-el9-gcc11-opt/jre/lib/amd64:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib64:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/lib:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/lib64:/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/lib:/net/software_g4rt/Alma9/GEANT4/10.04.p02/geant4.10.04.p02_gcc11.3_cmake3.25_root6.18_install/lib64:/cvmfs/sft.cern.ch/lcg/releases/R/4.3.0-bed00/x86_64-el9-gcc11-opt/lib64/R/library/readr/rcon
+Searching for libG4gl2ps.so in /lib64
+OUTPUT_DIR is set to: /home/home1/institut_3a/wissmann/generated_samples/gamma
+Created job-specific directory: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0
+Output files will be saved to: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/calo-HR.csv
+Random thickness value: 2.614
+Random position value: -51.161
+Running simulation for 0, output will go to: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/calo0-HR.csv
+Simulation output for 0 written to calo0-HR.csv
+Job 0 to 0 completed.
+
+
+Processing file: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/calo0-HR.csv, Text: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/0.txt
+Running simulation 3 for job 0
+Thickness set to 0.912 cm
+Position set to -56.81 cm
+GEANT4_PATH: 
+LD_LIBRARY_PATH: /cvmfs/sft.cern.ch/lcg/releases/MCGenerators/thepeg/2.2.3-19b8a/x86_64-el9-gcc11-opt/lib/ThePEG:/cvmfs/sft.cern.ch/lcg/releases/MCGenerators/herwig++/7.2.3p2-17f14/x86_64-el9-gcc11-opt/lib/Herwig:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/jaxlib/mlir/_mlir_libs:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/torch/lib:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/onnxruntime/capi/:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/tensorflow:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/tensorflow/contrib/tensor_forest:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/tensorflow/python/framework:/cvmfs/sft.cern.ch/lcg/releases/java/8u392-fe115/x86_64-el9-gcc11-opt/jre/lib/amd64:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib64:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/lib:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/lib64:/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/lib:/net/software_g4rt/Alma9/GEANT4/10.04.p02/geant4.10.04.p02_gcc11.3_cmake3.25_root6.18_install/lib64:/cvmfs/sft.cern.ch/lcg/releases/R/4.3.0-bed00/x86_64-el9-gcc11-opt/lib64/R/library/readr/rcon
+Searching for libG4gl2ps.so in /lib64
+OUTPUT_DIR is set to: /home/home1/institut_3a/wissmann/generated_samples/gamma
+Created job-specific directory: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0
+Output files will be saved to: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/calo-HR.csv
+Random thickness value: 0.912
+Random position value: -56.81
+Running simulation for 0, output will go to: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/calo0-HR.csv
+Simulation output for 0 written to calo0-HR.csv
+Job 0 to 0 completed.
+
+
+Processing file: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/calo0-HR.csv, Text: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/0.txt
+Running simulation 4 for job 0
+Thickness set to 1.548 cm
+Position set to -64.54 cm
+GEANT4_PATH: 
+LD_LIBRARY_PATH: /cvmfs/sft.cern.ch/lcg/releases/MCGenerators/thepeg/2.2.3-19b8a/x86_64-el9-gcc11-opt/lib/ThePEG:/cvmfs/sft.cern.ch/lcg/releases/MCGenerators/herwig++/7.2.3p2-17f14/x86_64-el9-gcc11-opt/lib/Herwig:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/jaxlib/mlir/_mlir_libs:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/torch/lib:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/onnxruntime/capi/:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/tensorflow:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/tensorflow/contrib/tensor_forest:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/tensorflow/python/framework:/cvmfs/sft.cern.ch/lcg/releases/java/8u392-fe115/x86_64-el9-gcc11-opt/jre/lib/amd64:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib64:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/lib:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/lib64:/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/lib:/net/software_g4rt/Alma9/GEANT4/10.04.p02/geant4.10.04.p02_gcc11.3_cmake3.25_root6.18_install/lib64:/cvmfs/sft.cern.ch/lcg/releases/R/4.3.0-bed00/x86_64-el9-gcc11-opt/lib64/R/library/readr/rcon
+Searching for libG4gl2ps.so in /lib64
+OUTPUT_DIR is set to: /home/home1/institut_3a/wissmann/generated_samples/gamma
+Created job-specific directory: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0
+Output files will be saved to: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/calo-HR.csv
+Random thickness value: 1.548
+Random position value: -64.54
+Running simulation for 0, output will go to: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/calo0-HR.csv
+Simulation output for 0 written to calo0-HR.csv
+Job 0 to 0 completed.
+
+
+Processing file: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/calo0-HR.csv, Text: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/0.txt
+Running simulation 5 for job 0
+Thickness set to 2.031 cm
+Position set to -69.997 cm
+GEANT4_PATH: 
+LD_LIBRARY_PATH: /cvmfs/sft.cern.ch/lcg/releases/MCGenerators/thepeg/2.2.3-19b8a/x86_64-el9-gcc11-opt/lib/ThePEG:/cvmfs/sft.cern.ch/lcg/releases/MCGenerators/herwig++/7.2.3p2-17f14/x86_64-el9-gcc11-opt/lib/Herwig:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/jaxlib/mlir/_mlir_libs:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/torch/lib:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/onnxruntime/capi/:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/tensorflow:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/tensorflow/contrib/tensor_forest:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/tensorflow/python/framework:/cvmfs/sft.cern.ch/lcg/releases/java/8u392-fe115/x86_64-el9-gcc11-opt/jre/lib/amd64:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib64:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/lib:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/lib64:/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/lib:/net/software_g4rt/Alma9/GEANT4/10.04.p02/geant4.10.04.p02_gcc11.3_cmake3.25_root6.18_install/lib64:/cvmfs/sft.cern.ch/lcg/releases/R/4.3.0-bed00/x86_64-el9-gcc11-opt/lib64/R/library/readr/rcon
+Searching for libG4gl2ps.so in /lib64
+OUTPUT_DIR is set to: /home/home1/institut_3a/wissmann/generated_samples/gamma
+Created job-specific directory: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0
+Output files will be saved to: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/calo-HR.csv
+Random thickness value: 2.031
+Random position value: -69.997
+Running simulation for 0, output will go to: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/calo0-HR.csv
+Simulation output for 0 written to calo0-HR.csv
+Job 0 to 0 completed.
+
+
+Processing file: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/calo0-HR.csv, Text: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/0.txt
+Running simulation 6 for job 0
+Thickness set to 1.041 cm
+Position set to -76.604 cm
+GEANT4_PATH: 
+LD_LIBRARY_PATH: /cvmfs/sft.cern.ch/lcg/releases/MCGenerators/thepeg/2.2.3-19b8a/x86_64-el9-gcc11-opt/lib/ThePEG:/cvmfs/sft.cern.ch/lcg/releases/MCGenerators/herwig++/7.2.3p2-17f14/x86_64-el9-gcc11-opt/lib/Herwig:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/jaxlib/mlir/_mlir_libs:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/torch/lib:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/onnxruntime/capi/:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/tensorflow:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/tensorflow/contrib/tensor_forest:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/tensorflow/python/framework:/cvmfs/sft.cern.ch/lcg/releases/java/8u392-fe115/x86_64-el9-gcc11-opt/jre/lib/amd64:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib64:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/lib:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/lib64:/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/lib:/net/software_g4rt/Alma9/GEANT4/10.04.p02/geant4.10.04.p02_gcc11.3_cmake3.25_root6.18_install/lib64:/cvmfs/sft.cern.ch/lcg/releases/R/4.3.0-bed00/x86_64-el9-gcc11-opt/lib64/R/library/readr/rcon
+Searching for libG4gl2ps.so in /lib64
+OUTPUT_DIR is set to: /home/home1/institut_3a/wissmann/generated_samples/gamma
+Created job-specific directory: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0
+Output files will be saved to: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/calo-HR.csv
+Random thickness value: 1.041
+Random position value: -76.604
+Running simulation for 0, output will go to: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/calo0-HR.csv
+Simulation output for 0 written to calo0-HR.csv
+Job 0 to 0 completed.
+
+
+Processing file: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/calo0-HR.csv, Text: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/0.txt
+Running simulation 7 for job 0
+Thickness set to 2.181 cm
+Position set to -87.294 cm
+GEANT4_PATH: 
+LD_LIBRARY_PATH: /cvmfs/sft.cern.ch/lcg/releases/MCGenerators/thepeg/2.2.3-19b8a/x86_64-el9-gcc11-opt/lib/ThePEG:/cvmfs/sft.cern.ch/lcg/releases/MCGenerators/herwig++/7.2.3p2-17f14/x86_64-el9-gcc11-opt/lib/Herwig:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/jaxlib/mlir/_mlir_libs:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/torch/lib:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/onnxruntime/capi/:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/tensorflow:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/tensorflow/contrib/tensor_forest:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/tensorflow/python/framework:/cvmfs/sft.cern.ch/lcg/releases/java/8u392-fe115/x86_64-el9-gcc11-opt/jre/lib/amd64:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib64:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/lib:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/lib64:/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/lib:/net/software_g4rt/Alma9/GEANT4/10.04.p02/geant4.10.04.p02_gcc11.3_cmake3.25_root6.18_install/lib64:/cvmfs/sft.cern.ch/lcg/releases/R/4.3.0-bed00/x86_64-el9-gcc11-opt/lib64/R/library/readr/rcon
+Searching for libG4gl2ps.so in /lib64
+OUTPUT_DIR is set to: /home/home1/institut_3a/wissmann/generated_samples/gamma
+Created job-specific directory: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0
+Output files will be saved to: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/calo-HR.csv
+Random thickness value: 2.181
+Random position value: -87.294
+Running simulation for 0, output will go to: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/calo0-HR.csv
+Simulation output for 0 written to calo0-HR.csv
+Job 0 to 0 completed.
+
+
+Processing file: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/calo0-HR.csv, Text: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/0.txt
+Running simulation 8 for job 0
+Thickness set to 1.84 cm
+Position set to -58.988 cm
+GEANT4_PATH: 
+LD_LIBRARY_PATH: /cvmfs/sft.cern.ch/lcg/releases/MCGenerators/thepeg/2.2.3-19b8a/x86_64-el9-gcc11-opt/lib/ThePEG:/cvmfs/sft.cern.ch/lcg/releases/MCGenerators/herwig++/7.2.3p2-17f14/x86_64-el9-gcc11-opt/lib/Herwig:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/jaxlib/mlir/_mlir_libs:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/torch/lib:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/onnxruntime/capi/:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/tensorflow:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/tensorflow/contrib/tensor_forest:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/tensorflow/python/framework:/cvmfs/sft.cern.ch/lcg/releases/java/8u392-fe115/x86_64-el9-gcc11-opt/jre/lib/amd64:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib64:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/lib:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/lib64:/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/lib:/net/software_g4rt/Alma9/GEANT4/10.04.p02/geant4.10.04.p02_gcc11.3_cmake3.25_root6.18_install/lib64:/cvmfs/sft.cern.ch/lcg/releases/R/4.3.0-bed00/x86_64-el9-gcc11-opt/lib64/R/library/readr/rcon
+Searching for libG4gl2ps.so in /lib64
+OUTPUT_DIR is set to: /home/home1/institut_3a/wissmann/generated_samples/gamma
+Created job-specific directory: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0
+Output files will be saved to: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/calo-HR.csv
+Random thickness value: 1.84
+Random position value: -58.988
+Running simulation for 0, output will go to: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/calo0-HR.csv
+Simulation output for 0 written to calo0-HR.csv
+Job 0 to 0 completed.
+
+
+Processing file: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/calo0-HR.csv, Text: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/0.txt
+Running simulation 9 for job 0
+Thickness set to 1.293 cm
+Position set to -80.625 cm
+GEANT4_PATH: 
+LD_LIBRARY_PATH: /cvmfs/sft.cern.ch/lcg/releases/MCGenerators/thepeg/2.2.3-19b8a/x86_64-el9-gcc11-opt/lib/ThePEG:/cvmfs/sft.cern.ch/lcg/releases/MCGenerators/herwig++/7.2.3p2-17f14/x86_64-el9-gcc11-opt/lib/Herwig:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/jaxlib/mlir/_mlir_libs:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/torch/lib:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/onnxruntime/capi/:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/tensorflow:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/tensorflow/contrib/tensor_forest:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/tensorflow/python/framework:/cvmfs/sft.cern.ch/lcg/releases/java/8u392-fe115/x86_64-el9-gcc11-opt/jre/lib/amd64:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib64:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/lib:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/lib64:/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/lib:/net/software_g4rt/Alma9/GEANT4/10.04.p02/geant4.10.04.p02_gcc11.3_cmake3.25_root6.18_install/lib64:/cvmfs/sft.cern.ch/lcg/releases/R/4.3.0-bed00/x86_64-el9-gcc11-opt/lib64/R/library/readr/rcon
+Searching for libG4gl2ps.so in /lib64
+OUTPUT_DIR is set to: /home/home1/institut_3a/wissmann/generated_samples/gamma
+Created job-specific directory: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0
+Output files will be saved to: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/calo-HR.csv
+Random thickness value: 1.293
+Random position value: -80.625
+Running simulation for 0, output will go to: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/calo0-HR.csv
+Simulation output for 0 written to calo0-HR.csv
+Job 0 to 0 completed.
+
+
+Processing file: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/calo0-HR.csv, Text: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/0.txt
+Running simulation 10 for job 0
+Thickness set to 2.253 cm
+Position set to -72.302 cm
+GEANT4_PATH: 
+LD_LIBRARY_PATH: /cvmfs/sft.cern.ch/lcg/releases/MCGenerators/thepeg/2.2.3-19b8a/x86_64-el9-gcc11-opt/lib/ThePEG:/cvmfs/sft.cern.ch/lcg/releases/MCGenerators/herwig++/7.2.3p2-17f14/x86_64-el9-gcc11-opt/lib/Herwig:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/jaxlib/mlir/_mlir_libs:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/torch/lib:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/onnxruntime/capi/:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/tensorflow:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/tensorflow/contrib/tensor_forest:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib/python3.11/site-packages/tensorflow/python/framework:/cvmfs/sft.cern.ch/lcg/releases/java/8u392-fe115/x86_64-el9-gcc11-opt/jre/lib/amd64:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib64:/cvmfs/sft.cern.ch/lcg/views/LCG_106a/x86_64-el9-gcc11-opt/lib:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/lib:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/lib64:/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/lib:/net/software_g4rt/Alma9/GEANT4/10.04.p02/geant4.10.04.p02_gcc11.3_cmake3.25_root6.18_install/lib64:/cvmfs/sft.cern.ch/lcg/releases/R/4.3.0-bed00/x86_64-el9-gcc11-opt/lib64/R/library/readr/rcon
+Searching for libG4gl2ps.so in /lib64
+OUTPUT_DIR is set to: /home/home1/institut_3a/wissmann/generated_samples/gamma
+Created job-specific directory: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0
+Output files will be saved to: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/calo-HR.csv
+Random thickness value: 2.253
+Random position value: -72.302
+Running simulation for 0, output will go to: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/calo0-HR.csv
+Simulation output for 0 written to calo0-HR.csv
+Job 0 to 0 completed.
+
+
+Processing file: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/calo0-HR.csv, Text: /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0/0.txt
+Job 0 completed and saved to output_parquet_files/simulation_results_0.parquet
+Job directory /home/home1/institut_3a/wissmann/generated_samples/gamma/job_0 deleted successfully.

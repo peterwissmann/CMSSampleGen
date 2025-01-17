@@ -1,0 +1,14 @@
+
+/run/initialize
+
+#/control/execute ../macros/init_vis.mac
+/control/execute ../macros/init_beam.mac
+/control/execute ../macros/init_scoreMeshes.mac
+
+/run/beamOn 1
+
+/score/dumpQuantityToFile firstLayer energyDeposit ../outputs/firstLayer.csv
+/score/dumpQuantityToFile secondLayer energyDeposit ../outputs/secondLayer_1x.csv
+/score/dumpQuantityToFile secondLayerFourTimesRes energyDeposit ../outputs/secondLayer_4x.csv
+/score/dumpQuantityToFile thirdLayer energyDeposit ../outputs/thirdLayer.csv
+/score/dumpQuantityToFile totalLayer energyDeposit ../outputs/totalLayer.csv

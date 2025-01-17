@@ -1,0 +1,68 @@
+
+/run/initialize
+
+## setup particle source
+/gps/particle pi0
+/gps/pos/type Beam
+/gps/pos/centre 0.0 0.0 -5 m
+/gps/direction 0 0 1
+/gps/energy ENERGY_PLACEHOLDER MeV
+#/gps/ene/type Lin
+#/gps/ene/min 10000 MeV
+#/gps/ene/max 100000 MeV
+#/gps/ene/gradient 1.
+#/gps/ene/intercept 1.
+
+#/score/create/boxMesh firstLayerx1
+#/score/mesh/boxSize 31.25 31.25 45 mm
+#/score/mesh/nBin 12 12 1
+#/score/mesh/translate/xyz 0. 0. -195 mm
+#/score/quantity/energyDeposit energyDeposit
+#/score/close
+
+#/score/create/boxMesh firstLayerx4
+#/score/mesh/boxSize 31.25 31.25 45 mm
+#/score/mesh/nBin 48 48 1
+#/score/mesh/translate/xyz 0. 0. -195 mm
+#/score/quantity/energyDeposit energyDeposit
+#/score/close
+
+/score/create/boxMesh secondLayerx1
+/score/mesh/boxSize 500 500 173.5 mm
+/score/mesh/nBin 24 24 1
+#/score/mesh/boxSize 250 250 173.5 mm
+#/score/mesh/nBin 12 12 1
+/score/mesh/translate/xyz 0. 0. 23.5 mm
+/score/quantity/energyDeposit energyDeposit
+/score/close
+
+/score/create/boxMesh secondLayerx4
+/score/mesh/boxSize 500 500 173.5 mm
+/score/mesh/nBin 96 96 1
+#/score/mesh/boxSize 250 250 173.5 mm
+#/score/mesh/nBin 48 48 1
+/score/mesh/translate/xyz 0. 0. 23.5 mm
+/score/quantity/energyDeposit energyDeposit
+/score/close
+
+#/score/create/boxMesh thirdLayer
+#/score/mesh/boxSize 500 500 21.5 mm
+#/score/mesh/nBin 24 12 1
+#/score/mesh/translate/xyz 0. 0. 218.5 mm
+#/score/quantity/energyDeposit energyDeposit
+#/score/close
+
+/score/create/boxMesh totalLayer
+/score/mesh/boxSize 500 500 240 mm
+/score/mesh/nBin 40 40 80
+/score/quantity/energyDeposit energyDeposit
+/score/close
+
+/run/beamOn 1
+
+#/score/dumpQuantityToFile firstLayerx1 energyDeposit OUTPUT_FILE_PLACEHOLDERx1_L1
+#/score/dumpQuantityToFile firstLayerx4 energyDeposit OUTPUT_FILE_PLACEHOLDERx4_L1
+/score/dumpQuantityToFile secondLayerx1 energyDeposit OUTPUT_FILE_PLACEHOLDERx1
+/score/dumpQuantityToFile secondLayerx4 energyDeposit OUTPUT_FILE_PLACEHOLDERx4
+#/score/dumpQuantityToFile thirdLayer energyDeposit OUTPUT_FILE_PLACEHOLDER_Third_Layer
+/score/dumpQuantityToFile totalLayer energyDeposit OUTPUT_FILE_PLACEHOLDER_Total_Layer
